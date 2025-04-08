@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #d4dff5;
+    font-family: monospace;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.box-one {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #0075ff;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+figure{
+    width: 400px;
+    float: left;
+    line-height: 1.8;
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 5px solid #ffffff;
+}
+
+figure:hover blockquote{
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.8em;
+    text-decoration: none;
+}
+
+blockquote {
+    display: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #d4d4d4;
+    /* text-decoration: line-through; */
+}
+
+article {
+    display: grid;
+    place-items: center;
+}
+
+table {
+    width: 500px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: #d4dff5;
+}
+
+tr th {
+    background-color: #0075ff;
+    color: white;
+    padding: 10px;
+}
+
+tr td {
+    padding: 10px;
+    background-color: #d4d4d4;
+}
+
+a {
+    text-decoration: none;
+    /* color: #0664c1; */
+}
+
+td:hover {
+    background-color: #73a2ff;
+    font-size: 16px;
+    color: #ffff;
+}
+
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #0075ff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color: #0075ff;
+}
+
+caption {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #d4d4d49c;
+    border: 3px solid #0075ff ;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+
+
+
+
+
